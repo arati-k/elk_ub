@@ -1,0 +1,5 @@
+- hosts: ansible-server jenkins
+  become: yes
+  vars_files:
+  roles:
+   - ../roles/filebeat
